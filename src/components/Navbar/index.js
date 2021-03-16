@@ -7,9 +7,9 @@ export default function Navbar({toggle}) {
     return ( 
         <>
         <Nav>
-            <NavbarContainer onClick={toggle}>
+            <NavbarContainer >
                 <NavLogo to="">Talha</NavLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars/>
                     
                 </MobileIcon>
